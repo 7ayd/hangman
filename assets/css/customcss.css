@@ -1,0 +1,686 @@
+.bottom-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  right:0px;
+  bottom:15px;
+
+}
+
+.trips{
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+}
+
+
+.location{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  opacity: 1;
+
+}
+
+
+/* Trip Creator */
+.new-trip{
+  background-color: white;
+  border-radius: 5px;
+  padding:30px;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left:28%;
+  top:20%;
+  z-index: 4;
+  height:auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:50%;
+}
+
+/* Resetting */
+
+/* */
+
+
+/* Elements */
+
+
+
+
+input{
+  padding:10px;
+  margin:10px;
+}
+/* */
+
+
+
+/* Single Elements*/
+
+.center{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+
+  width: 100%;
+
+}
+
+
+.float-right{
+  float:right;
+}
+
+/* */
+.page-div{
+  position: relative;
+  z-index: 1;
+
+}
+/* navbar */
+
+
+
+
+
+/* */
+
+/*Top trips div */
+
+/* */
+
+/* Creating a new trip */
+.trip-title{
+  font-family: "Comfortaa";
+  color: #b2524d;
+  padding:10px;
+  font-weight:bold;
+
+}
+
+
+
+.buttons{
+margin-top: 50px;
+
+}
+
+
+.next{
+  display: active;
+  float:right;
+  padding: 5px;
+  color:#1DC7EA;
+  font-family: 'Comfortaa';
+  border-radius: 3px;
+}
+
+.back{
+  display:none;
+  float:left;
+  padding: 5px;
+  font-family: 'Comfortaa';
+  color:#1DC7EA;
+  border-radius: 3px;
+}
+
+
+
+.submit{
+  width:100%;
+  font-family: 'Comfortaa';
+  color:#1DC7EA;
+  border-radius: 3px;
+  font-weight: bold;
+  display: none;
+}
+
+
+
+.trip-input{
+  width:96%;
+}
+
+
+.hidden-form{
+  display: none;
+}
+
+
+
+/* trip boxes */
+.indie-trips {
+  z-index: 3;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:80%;
+  overflow: hidden;
+  position: relative;
+  margin:5px;
+  height: 100%;
+  background-color: white;
+  color: #b2524d;
+
+}
+
+.indie-trips:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.bottom-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  right:0px;
+  bottom:15px;
+
+}
+
+/* */
+
+
+/* New Trip */
+.custom-file-upload {
+    -webkit-border-radius: 5px;
+    display:none;
+    /* box-shadow: 1px 1px 1px 1px; */
+
+}
+
+
+.pledge-b{
+  background-color: #1DC7EA;
+  color: white;
+}
+
+.date{
+
+  font-family:'Roboto';
+}
+
+
+
+.trip-format{
+  font-size: 20px;
+}
+
+#output{
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.another{
+  display: none;
+  border-radius: 3px;
+  width:10%;
+  color: white;
+  background-color: #aa5571;
+  position: relative;
+  left:93%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+
+
+/* Shake Effect */
+
+/* Standard syntax */
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.apply-shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* */
+#trip-but{
+
+
+
+}
+/**GROUPS**/
+.new-group{
+  background-color: white;
+  border-radius: 5px;
+  padding:30px;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left:28%;
+  top:20%;
+  z-index: 4;
+  height:auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:60%;
+}
+
+.group-box{
+  width:35%;
+  z-index: 3;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  color: #1DC7EA;
+  font-weight: bold;
+  margin:5px;
+
+}
+
+
+/*****Specific Group*****/
+.members{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.group-trips{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.trip-prev{
+  width:35%;
+  z-index: 3;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  color: #1DC7EA;
+  font-weight: bold;
+  margin:5px;
+
+}
+
+.group-interests{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+li{
+  list-style: none;
+}
+
+
+.back-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* display: none; */
+
+  height:100%;
+}
+
+.front-card{
+  display:active;
+  width:100%;
+  height:100%;
+
+}
+
+/* hide back of pane during swap */
+/* Trip Display */
+.header-data{
+  text-align: center;
+
+}
+
+
+.trips-data{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+
+
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
+/* MAP */
+
+.mapouter{
+  text-align:right;
+
+}
+.gmap_canvas {
+  border-radius: 1px solid red;
+  overflow:hidden;
+  background:none!important;
+  height:50vh;
+  width:100%;
+}
+
+
+/* Trip - Editing */
+.trip-edit{
+  top:10%;
+  left:0;
+  position: absolute;
+
+  background-color: grey;
+  z-index: 10;
+}
+
+/* Cost calculator wrap */
+.cost-calc{
+  display: none;
+  z-index: 10;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 15px;
+  overflow: hidden;
+  margin:5px;
+  font-weight: bold;
+
+
+}
+
+/* Editting Buttons */
+input[name='input-add']{
+  display: none;
+  width:50%;
+}
+
+#linksubmit{
+  display: none;
+}
+
+#peoplesubmit{
+  display: none;
+}
+
+
+/*profile picture */
+.small-image{
+
+}
+
+
+
+.big-image{
+  display: none;
+
+}
+
+.other-pic{
+  height:15vh;
+  border-radius: 40%;
+}
+
+.big-avatar{
+  display: none;
+  height:40vh;
+  position: absolute;
+  z-index: 10;
+  left:35%;
+  border-radius: 40%;
+}
+
+
+.image-upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.custom-file-upload {
+
+    border: 1px solid #ccc;
+    display: none;
+    height: 7vh;
+    cursor: pointer;
+    margin:5px;
+    padding:5px;
+
+}
+
+.custom-button-upload {
+
+    border: 1px solid #ccc;
+    height: 7vh;
+    cursor: pointer;
+    margin:5px;
+    padding:5px;
+
+}
+
+
+#url-upload{
+  display: active;
+  margin:5px;
+  padding:5px;
+
+}
+
+#prof-submit{
+  border: 1px solid #ccc;
+  display: inline-block;
+  height: 7vh;
+  cursor: pointer;
+  margin:5px;
+  padding:5px;
+}
+
+.image-hide{
+  display: none;
+}
+
+.radio-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.input-upload{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.editable{
+  display: none;
+  color:#1DC7EA;
+}
+
+
+
+
+/* Trip Images */
+.display-image{
+  min-width: 80%;
+  max-width:100%;
+  min-height: 70%;
+  max-height: 100%;
+  /* max-height:100%; */
+
+}
+
+.back-image{
+  margin-top: 10px;
+  height:60%;
+}
+.trip-image-n{
+
+  height: 30%;
+  display: inline-block;
+  margin: auto;
+  margin: 10px;
+
+}
+
+.image-wheel{
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+/* Dash board layout */
+
+.square{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height:100%;
+
+}
+
+
+
+.square-member{
+  width: 50%;
+}
+
+.form-control{
+  display: none;
+}
+
+.user-control{
+
+}
+
+
+/* Dashboard */
+
+.trip-wishlist{
+  height:100%;
+  width: 100%;
+
+}
+
+
+/* Password-box */
+
+
+/* Trip Boxes */
+
+.trip-info{
+  width: 100%;
+  height:100%;
+}
+
+
+/* class toggling */
+.hidden {
+  display: none;
+}
+
+.squish{
+  margin: 0;
+  padding:0;
+}
+
+.info-butt{
+  position: absolute;
+  top:5;
+  right:5;
+}
+
+.trip-page{
+  color:#b2524d;
+}
+
+
+/* wish list page */
+.wish-title{
+  color:#b2524d;
+  font-size: 300%;
+}
+
+
+.box-style{
+    border-radius: 3px;
+    color: #b2524d;
+}
+
+
+a:hover{
+  color: #b2524d;
+}
+
+a{
+  color: #b2524d;
+}
+
+
+.more-info{
+  display: none;
+}
+
+
+.simple-text,.trip-but{
+cursor: default;
+}
+
+
+.cost-font{
+  color: black;
+}
